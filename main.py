@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 
-MODEL_PATH = "bird-dataset/runs/detect/train/weights/best.pt"
+MODEL_PATH = "model/best.pt"
 CONF_THRESHOLD = 0.65
 MIN_BOX_AREA = 3000
 
